@@ -1123,7 +1123,16 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/moto/potter/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/moto/potter/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/moto/potter/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
+    vendor/moto/potter/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/moto/potter/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so
 
 PRODUCT_PACKAGES += \
     TimeService \
