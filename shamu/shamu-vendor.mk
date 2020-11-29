@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/bin/ks:$(TARGET_COPY_OUT_SYSTEM)/bin/ks \
     vendor/moto/shamu/proprietary/bin/mdm_helper:$(TARGET_COPY_OUT_SYSTEM)/bin/mdm_helper \
     vendor/moto/shamu/proprietary/bin/mdm_helper_proxy:$(TARGET_COPY_OUT_SYSTEM)/bin/mdm_helper_proxy \
-    vendor/moto/shamu/proprietary/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/mm-qcamera-daemon \
+    vendor/moto/shamu/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/moto/shamu/proprietary/vendor/bin/mpdecision:$(TARGET_COPY_OUT_VENDOR)/bin/mpdecision \
     vendor/moto/shamu/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/moto/shamu/proprietary/bin/qmi_motext_hook:$(TARGET_COPY_OUT_SYSTEM)/bin/qmi_motext_hook \
@@ -48,8 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb \
     vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V16_1.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/diag/mdm/FIT_V16_1.cfg \
     vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V16_3_audio.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/diag/mdm/FIT_V16_3_audio.cfg \
-    vendor/moto/shamu/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/moto/shamu/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/moto/shamu/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/moto/shamu/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/moto/shamu/proprietary/etc/flp.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/flp.conf \
     vendor/moto/shamu/proprietary/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.omadm.service.xml \
     vendor/moto/shamu/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.DirectedSMSProxy.xml \
