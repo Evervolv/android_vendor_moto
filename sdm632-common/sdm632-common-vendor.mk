@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/moto/sdm632-common
 
 PRODUCT_COPY_FILES += \
+    vendor/moto/sdm632-common/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/moto/sdm632-common/proprietary/vendor/framework/com.motorola.motosignature.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.motorola.motosignature.jar \
     vendor/moto/sdm632-common/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
     vendor/moto/sdm632-common/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/moto/sdm632-common/proprietary/lib/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-iopd-client_system.so \
